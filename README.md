@@ -1,16 +1,28 @@
-# React + Vite
+Projeto DARP - Frontend (Tela de Registro)
+Este é o projeto frontend para o desafio da Auth API. Ele contém uma tela de registro em React, estilizada com TailwindCSS, que se conecta ao backend NestJS fornecido.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Prerequisites
+Antes de começar, você precisa ter instalado:
 
-Currently, two official plugins are available:
+Node.js (versão 18 ou superior)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm (ou yarn)
 
-## React Compiler
+🚀 Como Rodar o Projeto (Completo)
+Você precisará de dois terminais abertos para rodar o projeto completo (o backend e o frontend).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Rodando o Frontend (Este Projeto)
+Agora, inicie este projeto darp (React) em um segundo terminal.
 
-## Expanding the ESLint configuration
+Bash
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 1. Navegue até a pasta deste projeto (darp)
+cd darp
+
+# 2. Instale as dependências
+npm install
+
+# 3. Inicie o servidor de desenvolvimento do Vite
+npm run dev
+
+🏁 O frontend agora deve estar rodando em http://localhost:5173 (ou qualquer porta que o Vite indicar no seu terminal).
